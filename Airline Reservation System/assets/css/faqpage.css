@@ -1,0 +1,56 @@
+* body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-weight: bold;
+
+   
+}
+  .box {
+      width: 1065px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 7px;
+      box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+      
+  }
+
+  .box .heading {
+      background: black;
+      border-radius: 7px 7px 0px 0px;
+      padding: 10px;
+      color:whitesmoke;
+      text-align: center;
+      font-family: calibri;
+      font-size: 30px;
+      font-weight: bold
+  }
+
+  .faqs {
+      padding: 0px 20px 20px;
+  }
+
+  ::-webkit-details-marker {
+      float: right;
+      margin-top: 3px;
+  }
+
+  details {
+      background: lightblue;
+      padding: 10px 20px;
+     
+      border-radius: 7px;
+     
+      margin-top: 20px;
+      font-family: calibri;
+       font-size: bold;
+      font-size: 15px;
+      letter-spacing: 1px;
+      cursor: pointer;
+  }
+
+  details summary {
+      outline: none;
+     
+  }
+

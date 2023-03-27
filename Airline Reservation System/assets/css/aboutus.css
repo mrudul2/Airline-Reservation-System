@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+              background-repeat: no-repeat;
+              background-size: cover;
+              color: white;
+          }
+.section{
+	width: 100%;
+	min-height: 100vh;
+	background-color: none;
+}
+.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+   
+}
+.image-section img{
+	width: 110%;
+	height: auto;
+    margin-top: 90px;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+    color:black;
+    
+}
+.content-section .content h3{
+	margin-top: 2px;
+	color:black;
+	font-size: 21px;
+   
+    
+}
+.content-section .content p{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+    
+	line-height: 1.5;
+    color:black;
+    
+}
+.content-section .content .button{
+	margin-top: 30px;
+}
+.content-section .content .button a{
+	background-color: #3d3d3d;
+	padding:12px 40px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+	background-color: #a52a2a;
+	color:black;
+}
+.content-section .social{
+	margin: 30px 30px;
+}
+.content-section .social i{
+	color:#a52a2a;
+	font-size: 30px;
+	padding:0px 10px;
+
+}
+.content-section .social i:hover{
+	color:#3d3d3d;
+}
+@media screen and (max-width: 768px){
+	.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+   
+}
+
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+    
+}
+.content-section .content .button{
+	text-align: center;
+}
+.content-section .content .button a{
+	padding:9px 50px;
+}
+.content-section .social{
+	text-align: center;
+}
+
+}
+
+.slider {
+    position: relative;
+    width: 40%;  
+    overflow: hidden;
+    
+    
+}
+.images {
+    display: flex;
+    width: 100%;
+    
+}
+.images img {
+    height: 250px;
+    width: 130%;
+    transition: all 0.15s ease;
+    margin-top: 90px;
+   
+}
+.images input {
+    display: none;
+    
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid black 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover {background: black;}
+
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -110%;
+}
+#img3:checked ~ .m3 {
+    margin-left: -250%;
+  
+}
